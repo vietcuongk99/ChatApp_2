@@ -15,34 +15,13 @@
       },
       "oauth_client": [
         {
-          "client_id": "209630829624-5macueplan0op36fnonh2i5qghaeiv0t.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyDLGuS9L5f3Orx3O1VBXchsSXPvgqLc70s"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "209630829624-5macueplan0op36fnonh2i5qghaeiv0t.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:209630829624:android:26549e28aeffdd88645acd",
-        "android_client_info": {
-          "package_name": "com.kdc.messengerclone"
-        }
-      },
-      "oauth_client": [
+          "client_id": "209630829624-j4vt1dmgr04u1h7ui5in5afaoiga7f3d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kdc.chatapp_2",
+            "certificate_hash": "0f751a09a83881e0de06df197833c36af80d482b"
+          }
+        },
         {
           "client_id": "209630829624-5macueplan0op36fnonh2i5qghaeiv0t.apps.googleusercontent.com",
           "client_type": 3

@@ -10,17 +10,56 @@
         android:id="@+id/toolbar"
         layout="@layout/bar_layout">
 
+
     </include>
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="Heloo, thank you for login"
-        android:orientation="horizontal"
-        android:textSize="20dp"
-        android:layout_below="@+id/toolbar">
+        android:layout_below="@+id/toolbar"
+        android:orientation="vertical"
+        android:gravity="center">
 
-    </TextView>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Heloo, thank you for login"
+            android:orientation="horizontal"
+            android:textSize="20dp"
+            android:layout_marginBottom="20dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/sign_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Sign out">
+
+        </Button>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/new_name"
+            android:hint="Nhập tên mới của bạn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </com.rengwuxian.materialedittext.MaterialEditText>
+
+        <Button
+            android:id="@+id/accept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Accept">
+
+        </Button>
+
+    </LinearLayout>
+
+
 
 </RelativeLayout>
